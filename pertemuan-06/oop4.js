@@ -46,38 +46,3 @@ console.log(lordOfTheRing);
 console.log(lordOfTheRing instanceof Book);
 console.log(lordOfTheRing instanceof Product);
 console.log(lordOfTheRing instanceof Electronic);
-
-const data = [
-  {
-    name: "foo",
-    email: "foo@gmail.com",
-    age: new Date(),
-    score: 100,
-  },
-  {
-    name: "foo",
-    email: "foo@gmail.com",
-    age: new Date(),
-    score: 100,
-  },
-];
-
-function calculateStudents(data) {
-  // your code
-}
-
-/* 
-{
-    score:{ 
-        highest:0,
-        lowest:0,
-        average:0
-    },
-    age:{ 
-        highest:0,
-        lowest:0,
-        average:0
-    }
-}
-
-*/
